@@ -54,15 +54,14 @@
 }
 
 /* my failuer styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 .my-failuer {
     display: flex;
     gap: 80px;
-    margin-left: 206px;
-    margin-right: 322px;
-    margin-top: 130px;
-    width: 1072px;
-    height: 723.3px;
 }
 
 .title {
@@ -94,4 +93,68 @@ ul li:before {
     content: '✓';
     color: rgb(57, 230, 103);
     font-weight: 800;
+}
+
+/* my plan styles */
+.my-paln {
+    margin-top: 120px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 80px;
+}
+
+.skill {
+    text-align: center;
+    margin-top: 46px;
+}
+
+.skill-tittle {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 12px;
+}
+
+/* footer styles */
+.footer-section {
+    display: flex;
+    gap: 300px;
+    background: #151414;
+    color: #FFFFFF;
+    padding: 130px 200px;
+    margin-top: 120px;
+
+}
+
+a {
+    text-decoration: none
+}
+
+.footer-section .section-title {
+    text-align: left;
+}
+
+.footer-section input[type="email"] {
+    margin-bottom: 24px;
+    font-size: 18px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    padding: 11px 20px;
+    background: none;
+    color: #FFFFFF;
 }
