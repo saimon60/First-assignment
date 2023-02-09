@@ -1,3 +1,97 @@
-p {
-    color: firebrick;
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header-section style */
+
+.banner {
+    background-image: url(images/banner/banner3.png);
+    width: 1500px;
+    height: 808x;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    height: 228px;
+    width: 525px;
+    padding-right: 230px;
+    padding-top: 216px;
+    padding-bottom: 346px;
+    padding-left: 745px;
+    text-align: right;
+}
+
+.bg-text .heading {
+
+    font-size: 55px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.bg-text .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-left: 31px;
+    width: 494px;
+    height: 78px;
+    padding-bottom: 32px;
+}
+
+.btn-primary {
+    height: 50px;
+    border: 0;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #FFFFFF;
+    text-decoration: none;
+    padding: 18px 30px;
+}
+
+/* my failuer styles */
+
+.my-failuer {
+    display: flex;
+    gap: 80px;
+    margin-left: 206px;
+    margin-right: 322px;
+    margin-top: 130px;
+    width: 1072px;
+    height: 723.3px;
+}
+
+.title {
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-top: 130px;
+}
+
+.sub-title {
+    width: 416px;
+    height: 104px;
+    padding-top: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+ul li:before {
+    content: '✓';
+    color: rgb(57, 230, 103);
+    font-weight: 800;
 }
