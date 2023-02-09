@@ -50,7 +50,7 @@
     border-radius: 5px;
     background: #FFFFFF;
     text-decoration: none;
-    padding: 18px 30px;
+    padding: 18px 20px;
 }
 
 /* my failuer styles */
@@ -62,6 +62,7 @@ main {
 .my-failuer {
     display: flex;
     gap: 80px;
+    margin-top: 125px;
 }
 
 .title {
@@ -79,17 +80,23 @@ main {
     padding-top: 24px;
 }
 
+.list-pos {
+    padding-right: 159px;
+}
+
 ul {
     list-style: none;
+
 }
 
 li {
     color: #444343;
     font-size: 16px;
     line-height: 26px;
+    list-style: none;
 }
 
-ul li:before {
+li:before {
     content: '✓';
     color: rgb(57, 230, 103);
     font-weight: 800;
@@ -129,6 +136,83 @@ ul li:before {
     margin-top: 12px;
 }
 
+/* linear-img */
+.linear {
+
+    margin-top: 120px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #FFFFFF;
+    width: 459px;
+    height: 94px;
+    padding-left: 64px;
+    padding-top: 59px;
+    padding-bottom: 24px;
+}
+
+a {
+    margin-right: 13px;
+}
+
+#call-now {
+    margin-left: 64px;
+}
+
+
+.gradient {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0)), url(images/watch.png);
+    width: 1100px;
+    height: 300px;
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* extra-section */
+.extra-section {
+    width: 730px;
+    height: 300px;
+    display: flex;
+    gap: 200px;
+    background: #ede558;
+    color: #444343;
+    padding: 50px 190px;
+    margin-top: 120px;
+}
+
+.submit-btn {
+    height: 50px;
+    border: 0;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: #b5aeae;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.extra-section h3 {
+    font-size: 26px;
+    padding-top: 62px;
+}
+
+.form input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: 2px solid #151414;
+    border-radius: 10px;
+    padding: 11px;
+    padding-right: 156px;
+    background: none;
+    margin: 23px;
+}
+
 /* footer styles */
 .footer-section {
     display: flex;
@@ -153,7 +237,7 @@ a {
     font-size: 18px;
     border: 2px solid #FFFFFF;
     border-radius: 10px;
-    width: 100%;
+    width: 70%;
     padding: 11px 20px;
     background: none;
     color: #FFFFFF;
